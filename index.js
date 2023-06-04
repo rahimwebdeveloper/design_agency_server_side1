@@ -35,7 +35,7 @@ async function run() {
             res.send(services)
         });
 
-        console.log(services)
+      
 
         //service get one item api 
         app.get('/service/:id', async (req, res) => {
